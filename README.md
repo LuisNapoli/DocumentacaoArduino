@@ -47,7 +47,7 @@ O resistor de 10kohms foi conectado no terminal 1a do botão até o 5v do arduin
 O terminal 2b foi conectado ao GND
 O terminal 2a foi conectado a porta ~5
 
-![image] (https://imgur.com/5l5uh5q) 
+![image](https://imgur.com/5l5uh5q) 
 
 Usando o projeto e explicando seu funcionamento.
 
