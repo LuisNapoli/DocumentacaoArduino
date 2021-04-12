@@ -7,9 +7,9 @@ Esse projeto foi baseado em um semáforo com um botão para pedestres, caso um p
 
 Material necessário:
 
-*2x leds vermelhos 🔴
-*1x led amarelo 🟡
-*2x leds verdes 🟢
+* 2x leds vermelhos 🔴
+* 1x led amarelo 🟡
+* 2x leds verdes 🟢
 
 *1x botão 
 
