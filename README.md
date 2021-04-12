@@ -57,7 +57,7 @@ Com o botão sendo pressionado, o semáforo de veiculo vai mudar para o amarelo 
 Nisso, exestira um atraso para que seja o tempo para a travessia do pedestre e logo após o semaforo de pedestre ficar vermelho que o semaforo de veiculos ira para o verde.
 
 ## Código: 
-#### ` // Configuração dos leds com o arduino
+``` // Configuração dos leds com o arduino
 void setup()
 {
   pinMode(4, OUTPUT);
@@ -91,7 +91,8 @@ void loop()
     digitalWrite(3, HIGH);
     delay(3000); // Espera 3000 millisecond(s)
   }
-}`
+}
+```
 
 
 
