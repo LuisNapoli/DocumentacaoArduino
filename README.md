@@ -29,13 +29,13 @@ Os leds foram separados no protoboard, 1x vermelho, 1x amarelo e 1x verde, para 
 
 Cada led recebeu um resistor de 200 ohms em seu catodo, ligadas no GND. Já o anodo foi conectado nas portas do arduino. Foram usadas as portas:
 	
-   Semaforo Veiculo
-	Led Vermelho: Porta ~11
-	Led Amarelo: Porta 10
-	Led Verde: Porta ~9
-   Semaforo Pedestre	
-	Led Vermelho: Porta 4
-	Led Verde: Porta ~3
+   ####Semaforo Veiculo
+	* Led Vermelho: Porta ~11
+	* Led Amarelo: Porta 10
+	* Led Verde: Porta ~9
+   ####Semaforo Pedestre	
+	* Led Vermelho: Porta 4
+	* Led Verde: Porta ~3
 
 
 ## Circuito do botão:
