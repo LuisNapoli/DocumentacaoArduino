@@ -1,8 +1,6 @@
-# DocumentacaoArduino
+### DocumentacaoArduino
 
-Projeto Simples com Arduino
-
-Semáforo e semáforo para pedestre. 🚦
+# Semáforo e semáforo para pedestre. 🚦
 
 Esse projeto foi baseado em um semáforo com um botão para pedestres, caso um pedestre queira atravessar a rua, ele simplesmente aperta o botão e isso fará com que o semáforo de veiculos mude do verde para o amarelo e em seguida para o vermelho. Depois disso, o semáforo de pedestres vai do vermelho para o verde, dando tempo suficiente para que o pedestre consiga atravessar a rua e assim, o semáforo de pedestres volta ao vermelho e o de veículos volta ao verde.
 
@@ -61,7 +59,7 @@ Nisso, exestira um atraso para que seja o tempo para a travessia do pedestre e l
 
 Código: 
 
-// Configuração dos leds com o arduino
+`// Configuração dos leds com o arduino
 void setup()
 {
   pinMode(4, OUTPUT);
@@ -96,7 +94,7 @@ void loop()
     delay(3000); // Espera 3000 millisecond(s)
   }
 }
-
+`
 
 
 
