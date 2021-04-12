@@ -5,26 +5,25 @@
 Esse projeto foi baseado em um semáforo com um botão para pedestres, caso um pedestre queira atravessar a rua, ele simplesmente aperta o botão e isso fará com que o semáforo de veiculos mude do verde para o amarelo e em seguida para o vermelho. Depois disso, o semáforo de pedestres vai do vermelho para o verde, dando tempo suficiente para que o pedestre consiga atravessar a rua e assim, o semáforo de pedestres volta ao vermelho e o de veículos volta ao verde.
 
 
-Material necessário:
+## Material necessário:
 
 * 2x leds vermelhos 🔴
 * 1x led amarelo 🟡
 * 2x leds verdes 🟢
 
-*1x botão 
+* 1x botão 
 
-*5x resistores 220 ohms
-1x resistor 10 kohms
+* 5x resistores 220 ohms
+* 1x resistor 10 kohms
 
-1x ardunino
+* 1x ardunino
 
-1x protoboard
+* 1x protoboard
+
+*O arduino e todos os componentes foram simulados em https://www.tinkercad.com/*
 
 
-O arduino e todos os componentes foram simulados em https://www.tinkercad.com/
-
-
-Como foi feito:
+## Como foi feito:
 
 Os leds foram separados no protoboard, 1x vermelho, 1x amarelo e 1x verde, para o semáforo de veículos e, 1x vermelho e  1x verde, para o semáforo de pedestres.
 
@@ -39,7 +38,7 @@ Cada led recebeu um resistor de 200 ohms em seu catodo, ligadas no GND. Já o an
 	Led Verde: Porta ~3
 
 
-Circuito do botão:
+## Circuito do botão:
 
 O resistor de 10kohms foi conectado no terminal 1a do botão até o 5v do arduino. 
 O terminal 2b foi conectado ao GND
@@ -47,7 +46,7 @@ O terminal 2a foi conectado a porta ~5
 
 ![image](https://imgur.com/5l5uh5q) 
 
-Usando o projeto e explicando seu funcionamento.
+## Usando o projeto e explicando seu funcionamento.
 
 Para ver o projeto funcionando é bem simples, ligar na eneria e apertar o botão.
 
@@ -57,7 +56,7 @@ O led verde de veiculo vai acender junto com o led vermelho do pedestre.
 Com o botão sendo pressionado, o semáforo de veiculo vai mudar para o amarelo e logo após para o vermelho, só depois que o semaforo de veiculo acender o vermelho que o semaforo de pedestre irá mudar para o verde. 
 Nisso, exestira um atraso para que seja o tempo para a travessia do pedestre e logo após o semaforo de pedestre ficar vermelho que o semaforo de veiculos ira para o verde.
 
-Código: 
+## Código: 
 
 `// Configuração dos leds com o arduino
 void setup()
