@@ -30,12 +30,12 @@ Os leds foram separados no protoboard, 1x vermelho, 1x amarelo e 1x verde, para 
 Cada led recebeu um resistor de 200 ohms em seu catodo, ligadas no GND. Já o anodo foi conectado nas portas do arduino. Foram usadas as portas:
 	
    #### Semaforo Veiculo
-	* Led Vermelho: Porta ~11
-	* Led Amarelo: Porta 10
-	* Led Verde: Porta ~9
+	Led Vermelho: Porta ~11
+	Led Amarelo: Porta 10
+	Led Verde: Porta ~9
    #### Semaforo Pedestre	
-	* Led Vermelho: Porta 4
-	* Led Verde: Porta ~3
+	Led Vermelho: Porta 4
+	Led Verde: Porta ~3
 
 
 ## Circuito do botão:
@@ -57,8 +57,7 @@ Com o botão sendo pressionado, o semáforo de veiculo vai mudar para o amarelo 
 Nisso, exestira um atraso para que seja o tempo para a travessia do pedestre e logo após o semaforo de pedestre ficar vermelho que o semaforo de veiculos ira para o verde.
 
 ## Código: 
-
-` // Configuração dos leds com o arduino
+#### ` // Configuração dos leds com o arduino
 void setup()
 {
   pinMode(4, OUTPUT);
