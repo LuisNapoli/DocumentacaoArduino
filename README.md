@@ -1,19 +1,19 @@
 ### DocumentacaoArduino
 
-# Semáforo e semáforo para pedestre. 🚦
+# Semáforo de veículos e semáforo para pedestre. 🚦
 
 Esse projeto foi baseado em um semáforo com um botão para pedestres, caso um pedestre queira atravessar a rua, ele simplesmente aperta o botão e isso fará com que o semáforo de veiculos mude do verde para o amarelo e em seguida para o vermelho. Depois disso, o semáforo de pedestres vai do vermelho para o verde, dando tempo suficiente para que o pedestre consiga atravessar a rua e assim, o semáforo de pedestres volta ao vermelho e o de veículos volta ao verde.
 
 
 Material necessário:
 
-2x leds vermelhos 🔴
-1x led amarelo 🟡
-2x leds verdes 🟢
+*2x leds vermelhos 🔴
+*1x led amarelo 🟡
+*2x leds verdes 🟢
 
-1x botão 
+*1x botão 
 
-5x resistores 220 ohms
+*5x resistores 220 ohms
 1x resistor 10 kohms
 
 1x ardunino
