@@ -50,7 +50,7 @@ O terminal 2a foi conectado a porta ~5
 
 Para ver o projeto funcionando é bem simples, ligar na eneria e apertar o botão.
 
-![arduino](https://i.imgur.com/Ch8nHEP.gifv)
+![arduino](https://i.imgur.com/Ch8nHEP.gif)
 
 O led verde de veiculo vai acender junto com o led vermelho do pedestre. 
 Com o botão sendo pressionado, o semáforo de veiculo vai mudar para o amarelo e logo após para o vermelho, só depois que o semaforo de veiculo acender o vermelho que o semaforo de pedestre irá mudar para o verde. 
