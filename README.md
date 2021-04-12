@@ -44,13 +44,13 @@ O resistor de 10kohms foi conectado no terminal 1a do botão até o 5v do arduin
 O terminal 2b foi conectado ao GND
 O terminal 2a foi conectado a porta ~5
 
-![image](https://imgur.com/5l5uh5q) 
+![botao](https://imgur.com/5l5uh5q) 
 
 ## Usando o projeto e explicando seu funcionamento.
 
 Para ver o projeto funcionando é bem simples, ligar na eneria e apertar o botão.
 
-![image](https://imgur.com/Ch8nHEP)
+![arduino](https://i.imgur.com/Ch8nHEP.gifv)
 
 O led verde de veiculo vai acender junto com o led vermelho do pedestre. 
 Com o botão sendo pressionado, o semáforo de veiculo vai mudar para o amarelo e logo após para o vermelho, só depois que o semaforo de veiculo acender o vermelho que o semaforo de pedestre irá mudar para o verde. 
@@ -58,7 +58,7 @@ Nisso, exestira um atraso para que seja o tempo para a travessia do pedestre e l
 
 ## Código: 
 
-`// Configuração dos leds com o arduino
+` // Configuração dos leds com o arduino
 void setup()
 {
   pinMode(4, OUTPUT);
@@ -92,8 +92,7 @@ void loop()
     digitalWrite(3, HIGH);
     delay(3000); // Espera 3000 millisecond(s)
   }
-}
-`
+}`
 
 
 
