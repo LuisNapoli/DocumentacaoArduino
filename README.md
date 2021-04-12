@@ -53,6 +53,8 @@ Usando o projeto e explicando seu funcionamento.
 
 Para ver o projeto funcionando é bem simples, ligar na eneria e apertar o botão.
 
+![image](https://imgur.com/Ch8nHEP)
+
 O led verde de veiculo vai acender junto com o led vermelho do pedestre. 
 Com o botão sendo pressionado, o semáforo de veiculo vai mudar para o amarelo e logo após para o vermelho, só depois que o semaforo de veiculo acender o vermelho que o semaforo de pedestre irá mudar para o verde. 
 Nisso, exestira um atraso para que seja o tempo para a travessia do pedestre e logo após o semaforo de pedestre ficar vermelho que o semaforo de veiculos ira para o verde.
